@@ -23,6 +23,6 @@ const Contact = () => (
   </div>
 );
 
-ReactDOM.render(Contact(), document.getElementById("root"));
+ReactDOM.render(<Contact />, document.getElementById("root"));
 
 export default Contact;
